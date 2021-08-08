@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0px;
+    left: 0px;
+}
+div img{
+    margin: 7px;
+    width: 32px;
+    border-radius: 55%;
+}
+ul{
+    display: flex;
+    font-family:'Baloo Bhai',cursive;
+    
+}
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+    ul li a{
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 20%;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.Home{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 100px;
+  justify-content: center;
+  color: white;
+ text-align: center;
+}
+
+.Home::before{
+    content: "";
+    background: url(food\ wallpaper1.jpg) no-repeat center center/cover ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+.Home h1{
+    font-size: 3.3rem;
+    padding: 14px;
+    font-family: 'Bree Serif' , serif;
+}
+.Home p{
+    font-size: 1.3rem;
+    font-family:'Bree Serif' , serif ;
+    padding-bottom: 5px;
+}
+
+
+.text{
+    padding: 6px 20px;
+    background-color: brown;
+    border: 2px solid white;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+
+}
+.mid{
+    background-color: white;
+    text-align: center;
+    padding: 23px;
+    margin: 0px;
+}
+.mid h3{
+    font-size: 3.2rem;
+}
+
+.service{
+    display: flex;
+    /* align-items: center; */
+    font-size: medium; 
+    position: relative;
+    left: 0px;
+    /* overflow: hidden; */
+    /* width: 100%; */
+    margin: 0px;
+    padding: 19px;
+    background-color: white;
+    
+}
+.box{
+background-color: rgb(199, 191, 191);
+    border: 2px solid red;
+    border-radius: 14%;
+    padding: 5px;
+    margin: 5px;
+
+}
+.box h4{
+font-size: 1.3rem;
+font-family: 'Baloo Bhai',cursive;
+}
+.box p{
+font-family: 'Bree Serif' , serif;
+}
+
+.service img{
+margin: 20px;
+width: 152px;
+height: 152px;
+}
+div h3{
+padding: 20px;
+}
+.clients{
+padding: 40px;
+height: 100px;
+justify-content: center;
+color: black;
+text-align: center;
+}
+
+     
+.clients::before{
+   content: "";
+   position: absolute;
+   left: 0px;
+   background: url(food\ wallpaper5.jpg)no-repeat center center/cover ;
+   z-index: -1;
+   opacity: 0.9;
+   width: 100%;
+   height: 100%;
+}
+.client-section{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+.clients h3{
+    font-size: 3.3rem;
+    padding: 14px;
+}
+.client item{
+    margin: 20px;
+    padding: 20px;
+}
+.client-section div img{
+    width: 86px;
+    margin: 28px;
+    border-radius: 55%;
+}
+.contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 129px;
+    margin: 45px;
+}
+.contact::before{
+    content: "";
+    background: url(contact\ us.jpeg) no-repeat center center/cover ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* top: 0px; */
+    left: 0px;
+    opacity: 0.9;
+
+}
+.contact h3{
+    font-size: 3.2rem;
+    padding: 14px;
+}
+.contact-section{
+    padding: 4px;
+    margin: 4px;
+}
+.contact-section div{
+    padding: 4px;
+    font-size: 1.4rem;
+    font-family: 'Baloo Bhai',cursive;
+    font-weight: bold;
+}
+.contact-section div input,
+.contact-section div textarea{
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 9px;
+    font-size: 1.3rem;
+}
+.contact-section div input[type=submit]{
+    background-color: brown;
+    border: 2px solid white;
+    color: white;
+}
+.end{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
